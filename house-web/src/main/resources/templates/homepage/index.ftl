@@ -18,11 +18,11 @@
                     <div class="overlay">
                         <div class="info">
                             <div class="tag price">110 万</div>
-                            <h3>3398 光明大街</h3>
-                            <figure>西街镇, 新都区</figure>
+                            <h3>长安街</h3>
+                            <figure>古风</figure>
                         </div>
                         <hr>
-                        <a href="property-detail.html" class="link-arrow">Read More</a>
+                        <#--<a href="property-detail.html" class="link-arrow">Read More</a>-->
                     </div>
                 </div>
                 <img alt="" src="/static/assets/img/slide-01.jpg">
@@ -32,11 +32,11 @@
                     <div class="overlay">
                         <div class="info">
                             <div class="tag price"> 160 万</div>
-                            <h3>987 黄鹤大街</h3>
-                            <figure>张庄, IL 60610</figure>
+                            <h3>古城</h3>
+                            <figure>长桥</figure>
                         </div>
                         <hr>
-                        <a href="property-detail.html" class="link-arrow">Read More</a>
+                        <#--<a href="property-detail.html" class="link-arrow">Read More</a>-->
                     </div>
                 </div>
                 <img alt="" src="/static/assets/img/slide-02.jpg">
@@ -50,7 +50,7 @@
                             <figure>王庄镇, 和平区</figure>
                         </div>
                         <hr>
-                        <a href="property-detail.html" class="link-arrow">Read More</a>
+                        <#--<a href="property-detail.html" class="link-arrow">Read More</a>-->
                     </div>
                 </div>
                 <img alt="" src="/static/assets/img/slide-03.jpg">
@@ -146,44 +146,44 @@
         </section><!-- /#new-properties-->
         <section id="testimonials" class="block">
             <div class="container">
-                <header class="section-title"><h2>Testimonials</h2></header>
+                <header class="section-title"><h2>负责人</h2></header>
                 <div class="owl-carousel testimonials-carousel">
                     <blockquote class="testimonial">
                         <figure>
                             <div class="image">
-                                <img alt="" src="/static/assets/img/client-01.jpg">
+                                <img alt="" src="/static/assets/img/user-02.jpg">
                             </div>
                         </figure>
                         <aside class="cite">
-                            <p>Fusce risus metus, placerat in consectetur eu, porttitor a est sed sed dolor lorem cras adipiscing</p>
-                            <footer>Natalie Jenkins</footer>
+                            <p>这是我们的初心</p>
+                            <footer>long</footer>
                         </aside>
                     </blockquote>
                     <blockquote class="testimonial">
                         <figure>
                             <div class="image">
-                                <img alt="" src="/static/assets/img/client-01.jpg">
+                                <img alt="" src="/static/assets/img/user-02.jpg">
                             </div>
                         </figure>
                         <aside class="cite">
-                            <p>Fusce risus metus, placerat in consectetur eu, porttitor a est sed sed dolor lorem cras adipiscing</p>
-                            <footer>Natalie Jenkins</footer>
+                            <p>这是我们的初心</p>
+                            <footer>long</footer>
                         </aside>
                     </blockquote>
                 </div><!-- /.testimonials-carousel -->
             </div><!-- /.container -->
         </section><!-- /#testimonials -->
         <section id="partners" class="block">
-            <div class="container">
-                <header class="section-title"><h2>Our Partners</h2></header>
-                <div class="logos">
-                    <div class="logo"><a href=""><img src="/static/assets/img/logo-partner-01.png" alt=""></a></div>
-                    <div class="logo"><a href=""><img src="/static/assets/img/logo-partner-02.png" alt=""></a></div>
-                    <div class="logo"><a href=""><img src="/static/assets/img/logo-partner-03.png" alt=""></a></div>
-                    <div class="logo"><a href=""><img src="/static/assets/img/logo-partner-04.png" alt=""></a></div>
-                    <div class="logo"><a href=""><img src="/static/assets/img/logo-partner-05.png" alt=""></a></div>
-                </div>
-            </div><!-- /.container -->
+            <#--<div class="container">-->
+                <#--<header class="section-title"><h2>Our Partners</h2></header>-->
+                <#--<div class="logos">-->
+                    <#--<div class="logo"><a href=""><img src="/static/assets/img/logo-partner-01.png" alt=""></a></div>-->
+                    <#--<div class="logo"><a href=""><img src="/static/assets/img/logo-partner-02.png" alt=""></a></div>-->
+                    <#--<div class="logo"><a href=""><img src="/static/assets/img/logo-partner-03.png" alt=""></a></div>-->
+                    <#--<div class="logo"><a href=""><img src="/static/assets/img/logo-partner-04.png" alt=""></a></div>-->
+                    <#--<div class="logo"><a href=""><img src="/static/assets/img/logo-partner-05.png" alt=""></a></div>-->
+                <#--</div>-->
+            <#--</div><!-- /.container &ndash;&gt;-->
         </section><!-- /#partners -->
     </div>
     <!-- end Page Content -->
