@@ -43,11 +43,23 @@ public class CommentService {
 
   public List<Comment> getHouseComments(long houseId,int size) {
     List<Comment> comments = commentMapper.selectComments(houseId,size);
-    comments.forEach(comment -> {
-       User user = userService.getUserById(comment.getUserId());
-       comment.setAvatar(user.getAvatar());
-       comment.setUserName(user.getName());
-    });
+//    comments.forEach(comment -> {
+//       User user = userService.getUserById(comment.getUserId());
+//       comment.setAvatar(user.getAvatar());
+//       comment.setUserName(user.getName());
+//    });
+
+    for (int i=comments.size()-1;i>=0;i--){
+      User user = userService.getUserById(comments.get(i).getUserId());
+      if (user==null){
+        comments.remove(i);
+      }
+      else{
+        comments.get(i).setAvatar(user.getAvatar());
+        comments.get(i).setUserName(user.getName());
+      }
+
+    }
     return comments;
   }
 

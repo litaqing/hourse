@@ -191,16 +191,16 @@
                                 <hr>
                             </section>
                         </div><!-- /.col-md-9 -->
-                        <div class="col-md-3 col-sm-3">
-                            <aside class="submit-step">
-                                <figure class="step-number">2</figure>
-                                <div class="description">
-                                    <h4>Enter Information About Property</h4>
-                                    <p>Type information about your property. Be descriptive.
-                                    </p>
-                                </div>
-                            </aside><!-- /.submit-step -->
-                        </div><!-- /.col-md-3 -->
+                        <#--<div class="col-md-3 col-sm-3">-->
+                            <#--<aside class="submit-step">-->
+                                <#--<figure class="step-number">2</figure>-->
+                                <#--<div class="description">-->
+                                    <#--<h4>Enter Information About Property</h4>-->
+                                    <#--<p>Type information about your property. Be descriptive.-->
+                                    <#--</p>-->
+                                <#--</div>-->
+                            <#--</aside><!-- /.submit-step &ndash;&gt;-->
+                        <#--</div><!-- /.col-md-3 &ndash;&gt;-->
                     </div>
                 </div><!-- /.row -->
                 <div class="row">

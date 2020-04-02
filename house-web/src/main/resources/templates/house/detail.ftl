@@ -89,7 +89,7 @@
                                     <div class="floor-plans">
                                         <header><h2>户型图</h2></header>
                                          <#list house.floorPlanList as floorPlan> 
-                                            <a href="${floorPlan}" class="image-popup"><img alt="" src="${floorPlan}"></a>
+                                            <a href="${floorPlan}" class="image-popup"><img alt="" src="${floorPlan}" style="max-width: 500px;max-height: 400px"></a>
                                          </#list>
                                     </div>
                                 </section><!-- /#floor-plans -->
