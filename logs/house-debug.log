@@ -1,0 +1,48 @@
+2020-03-18 16:05:56.995  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8091-exec-2cid - ==>  Preparing: select a.id, a.type, a.name, a.price, a.images, a.area, a.beds, a.baths, a.rating, a.remarks, a.properties, a.floor_plan, a.tags, a.create_time, a.city_id, a.community_id, a.address, a.state from house a WHERE state = 1 order by a.create_time desc limit ?,? 
+2020-03-18 16:05:57.065  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8091-exec-2cid - ==> Parameters: 0(Integer), 8(Integer)
+2020-03-18 16:05:57.155  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8091-exec-2cid - <==      Total: 8
+2020-03-18 16:06:03.641  [http-nio-8091-exec-1] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8091-exec-1cid - ==>  Preparing: select a.id, a.type, a.name, a.price, a.images, a.area, a.beds, a.baths, a.rating, a.remarks, a.properties, a.floor_plan, a.tags, a.create_time, a.city_id, a.community_id, a.address, a.state from house a WHERE state = 1 order by a.create_time desc limit ?,? 
+2020-03-18 16:06:03.641  [http-nio-8091-exec-1] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8091-exec-1cid - ==> Parameters: 0(Integer), 5(Integer)
+2020-03-18 16:06:03.647  [http-nio-8091-exec-1] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8091-exec-1cid - <==      Total: 5
+2020-03-18 16:06:03.649  [http-nio-8091-exec-1] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageCount:] http-nio-8091-exec-1cid - ==>  Preparing: select count(id) from house a WHERE state = 1 
+2020-03-18 16:06:03.655  [http-nio-8091-exec-1] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageCount:] http-nio-8091-exec-1cid - ==> Parameters: 
+2020-03-18 16:06:03.664  [http-nio-8091-exec-1] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageCount:] http-nio-8091-exec-1cid - <==      Total: 1
+2020-03-18 16:06:12.927  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8091-exec-2cid - ==>  Preparing: select a.id, a.type, a.name, a.price, a.images, a.area, a.beds, a.baths, a.rating, a.remarks, a.properties, a.floor_plan, a.tags, a.create_time, a.city_id, a.community_id, a.address, a.state from house a WHERE state = 1 and a.type = ? order by a.create_time desc limit ?,? 
+2020-03-18 16:06:12.928  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8091-exec-2cid - ==> Parameters: 1(Integer), 0(Integer), 5(Integer)
+2020-03-18 16:06:12.943  [http-nio-8091-exec-3] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8091-exec-3cid - ==>  Preparing: select a.id, a.type, a.name, a.price, a.images, a.area, a.beds, a.baths, a.rating, a.remarks, a.properties, a.floor_plan, a.tags, a.create_time, a.city_id, a.community_id, a.address, a.state from house a WHERE state = 1 and a.type = ? order by a.create_time desc limit ?,? 
+2020-03-18 16:06:12.952  [http-nio-8091-exec-3] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8091-exec-3cid - ==> Parameters: 2(Integer), 0(Integer), 5(Integer)
+2020-03-18 16:06:13.007  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8091-exec-2cid - <==      Total: 5
+2020-03-18 16:06:13.007  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageCount:] http-nio-8091-exec-2cid - ==>  Preparing: select count(id) from house a WHERE state = 1 and a.type = ? 
+2020-03-18 16:06:13.008  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageCount:] http-nio-8091-exec-2cid - ==> Parameters: 1(Integer)
+2020-03-18 16:06:13.009  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageCount:] http-nio-8091-exec-2cid - <==      Total: 1
+2020-03-18 16:06:13.465  [http-nio-8091-exec-3] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8091-exec-3cid - <==      Total: 1
+2020-03-18 16:06:13.466  [http-nio-8091-exec-3] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageCount:] http-nio-8091-exec-3cid - ==>  Preparing: select count(id) from house a WHERE state = 1 and a.type = ? 
+2020-03-18 16:06:13.469  [http-nio-8091-exec-3] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageCount:] http-nio-8091-exec-3cid - ==> Parameters: 2(Integer)
+2020-03-18 16:06:13.470  [http-nio-8091-exec-3] DEBUG [com.mooc.house.biz.mapper.HouseMapper.selectPageCount:] http-nio-8091-exec-3cid - <==      Total: 1
+2020-03-18 16:06:46.164  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.HouseMapper.getMapHouse:] http-nio-8091-exec-2cid - ==>  Preparing: select * from house 
+2020-03-18 16:06:46.184  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.HouseMapper.getMapHouse:] http-nio-8091-exec-2cid - ==> Parameters: 
+2020-03-18 16:06:46.224  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.HouseMapper.getMapHouse:] http-nio-8091-exec-2cid - <==      Total: 25
+2020-03-18 16:06:53.654  [http-nio-8091-exec-1] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlog:] http-nio-8091-exec-1cid - ==>  Preparing: select id,tags ,content,create_time,title from blog a order by a.create_time desc limit ?, ? 
+2020-03-18 16:06:53.659  [http-nio-8091-exec-1] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlog:] http-nio-8091-exec-1cid - ==> Parameters: 0(Integer), 5(Integer)
+2020-03-18 16:06:53.710  [http-nio-8091-exec-1] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlog:] http-nio-8091-exec-1cid - <==      Total: 5
+2020-03-18 16:06:53.807  [http-nio-8091-exec-1] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlogCount:] http-nio-8091-exec-1cid - ==>  Preparing: select count(id) from blog a order by a.create_time desc 
+2020-03-18 16:06:53.809  [http-nio-8091-exec-1] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlogCount:] http-nio-8091-exec-1cid - ==> Parameters: 
+2020-03-18 16:06:53.811  [http-nio-8091-exec-1] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlogCount:] http-nio-8091-exec-1cid - <==      Total: 1
+2020-03-18 16:07:00.201  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlog:] http-nio-8091-exec-2cid - ==>  Preparing: select id,tags ,content,create_time,title from blog a order by a.create_time desc limit ?, ? 
+2020-03-18 16:07:00.203  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlog:] http-nio-8091-exec-2cid - ==> Parameters: 5(Integer), 5(Integer)
+2020-03-18 16:07:00.204  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlog:] http-nio-8091-exec-2cid - <==      Total: 4
+2020-03-18 16:07:00.208  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlogCount:] http-nio-8091-exec-2cid - ==>  Preparing: select count(id) from blog a order by a.create_time desc 
+2020-03-18 16:07:00.208  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlogCount:] http-nio-8091-exec-2cid - ==> Parameters: 
+2020-03-18 16:07:00.209  [http-nio-8091-exec-2] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlogCount:] http-nio-8091-exec-2cid - <==      Total: 1
+2020-03-18 16:07:01.812  [http-nio-8091-exec-5] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlog:] http-nio-8091-exec-5cid - ==>  Preparing: select id,tags ,content,create_time,title from blog a order by a.create_time desc limit ?, ? 
+2020-03-18 16:07:01.813  [http-nio-8091-exec-5] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlog:] http-nio-8091-exec-5cid - ==> Parameters: 5(Integer), 5(Integer)
+2020-03-18 16:07:01.815  [http-nio-8091-exec-5] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlog:] http-nio-8091-exec-5cid - <==      Total: 4
+2020-03-18 16:07:01.817  [http-nio-8091-exec-5] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlogCount:] http-nio-8091-exec-5cid - ==>  Preparing: select count(id) from blog a order by a.create_time desc 
+2020-03-18 16:07:01.818  [http-nio-8091-exec-5] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlogCount:] http-nio-8091-exec-5cid - ==> Parameters: 
+2020-03-18 16:07:01.818  [http-nio-8091-exec-5] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlogCount:] http-nio-8091-exec-5cid - <==      Total: 1
+2020-03-18 16:07:05.798  [http-nio-8091-exec-4] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlog:] http-nio-8091-exec-4cid - ==>  Preparing: select id,tags ,content,create_time,title from blog a order by a.create_time desc limit ?, ? 
+2020-03-18 16:07:05.800  [http-nio-8091-exec-4] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlog:] http-nio-8091-exec-4cid - ==> Parameters: 0(Integer), 5(Integer)
+2020-03-18 16:07:05.803  [http-nio-8091-exec-4] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlog:] http-nio-8091-exec-4cid - <==      Total: 5
+2020-03-18 16:07:05.805  [http-nio-8091-exec-4] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlogCount:] http-nio-8091-exec-4cid - ==>  Preparing: select count(id) from blog a order by a.create_time desc 
+2020-03-18 16:07:05.806  [http-nio-8091-exec-4] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlogCount:] http-nio-8091-exec-4cid - ==> Parameters: 
+2020-03-18 16:07:05.807  [http-nio-8091-exec-4] DEBUG [com.mooc.house.biz.mapper.BlogMapper.selectBlogCount:] http-nio-8091-exec-4cid - <==      Total: 1
