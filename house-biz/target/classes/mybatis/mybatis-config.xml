@@ -15,17 +15,17 @@
     
     
     <typeAliases>
-       <typeAlias type="com.mooc.house.common.model.User" alias="user" />
-        <typeAlias type="com.mooc.house.common.model.Agency"      alias="agency"/>
-       <typeAlias type="com.mooc.house.common.model.House" alias="house" />
-       <typeAlias type="com.mooc.house.common.model.City" alias="city" />
-       <typeAlias type="com.mooc.house.common.model.Comment"     alias="comment"/>
-       <typeAlias type="com.mooc.house.common.model.Community" alias="community" />
-       <typeAlias type="com.mooc.house.common.model.HouseUser" alias="houseUser" />
-       <typeAlias type="com.mooc.house.common.model.Blog"        alias="blog"/>
-       <typeAlias type="com.mooc.house.common.model.User"        alias="user"/>
-       <typeAlias type="com.mooc.house.common.model.UserMsg"     alias="userMsg"/>
-       <typeAlias type="com.mooc.house.common.model.HouseUser"     alias="houseUser"/>
+       <typeAlias type="com.likunlong.house.common.model.User" alias="user" />
+        <typeAlias type="com.likunlong.house.common.model.Agency" alias="agency"/>
+       <typeAlias type="com.likunlong.house.common.model.House" alias="house" />
+       <typeAlias type="com.likunlong.house.common.model.City" alias="city" />
+       <typeAlias type="com.likunlong.house.common.model.Comment" alias="comment"/>
+       <typeAlias type="com.likunlong.house.common.model.Community" alias="community" />
+       <typeAlias type="com.likunlong.house.common.model.HouseUser" alias="houseUser" />
+       <typeAlias type="com.likunlong.house.common.model.Blog" alias="blog"/>
+       <typeAlias type="com.likunlong.house.common.model.User" alias="user"/>
+       <typeAlias type="com.likunlong.house.common.model.UserMsg" alias="userMsg"/>
+       <typeAlias type="com.likunlong.house.common.model.HouseUser" alias="houseUser"/>
     
     </typeAliases>
     
@@ -35,6 +35,7 @@
        <mapper resource="mapper/house.xml" />
        <mapper resource="mapper/comment.xml"/> 
        <mapper resource="mapper/agency.xml" />
+        <mapper resource="mapper/CityMapper.xml" />
     </mappers>
 
 </configuration>
